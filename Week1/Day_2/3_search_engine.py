@@ -103,5 +103,5 @@ def main():
 
 if __name__ == "__main__":
     print('starting services')
-    main()
+    #main()
     uvicorn.run(app, host="0.0.0.0", port=9321)
